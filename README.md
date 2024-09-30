@@ -3,6 +3,7 @@
 Universal Translator es una aplicación web moderna y fácil de usar que permite a los usuarios traducir texto entre una amplia variedad de idiomas. Con una interfaz intuitiva y características avanzadas, este traductor es perfecto para uso personal o profesional.
 
 ## Imagen App Universal Translator
+![Captura de pantalla_29-9-2024_211614_](https://github.com/user-attachments/assets/6815583e-ee79-47ab-933c-0943f65d9410)
 
 ## Características
 
