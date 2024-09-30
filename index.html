@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/logo.png" alt="Universal Translator Logo" class="logo">
+    </header>
+
+    <main>
+        <div class="translator-container">
+            <div class="input-container">
+                <div class="head">
+                    <div class="langs">
+                        <select id="fromLang">
+                            <!-- Language options will be populated by JavaScript -->
+                        </select>
+                    </div>
+                </div>
+                <textarea placeholder="Enter text to translate" maxlength="500"></textarea>
+                <div class="btns">
+                    <div class="sound-copy">
+                        <button class="sound"><i class="fas fa-volume-up"></i></button>
+                        <button class="copy"><i class="far fa-copy"></i></button>
+                    </div>
+                    <span class="length">0/500</span>
+                </div>
+            </div>
+
+            <button class="switcher"><i class="fas fa-exchange-alt"></i></button>
+
+            <div class="output-container">
+                <div class="head">
+                    <div class="langs">
+                        <select id="toLang">
+                            <!-- Language options will be populated by JavaScript -->
+                        </select>
+                    </div>
+                </div>
+                <textarea readonly></textarea>
+                <div class="btns">
+                    <div class="sound-copy">
+                        <button class="sound"><i class="fas fa-volume-up"></i></button>
+                        <button class="copy"><i class="far fa-copy"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="translate-btn">
+            <i class="fas fa-language"></i> Translate
+        </button>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
