@@ -59,7 +59,10 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ## Autor
 
-[Tu Nombre]
+Elizabeth Diaz Familia
+
+- [LinkedIn](https://linkedin.com/in/eli-familia/)
+- [GitHub](https://github.com/Lizzy0981)
 
 ## Agradecimientos
 
